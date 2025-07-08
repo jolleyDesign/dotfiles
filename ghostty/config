@@ -1,0 +1,31 @@
+# font settings
+font-family = "Cascadia Code"
+font-family-bold = "Cascadia Code Bold"
+font-family-italic = "Cascadia Code Italic"
+
+# theme and appearance
+theme = catppuccin-mocha
+background-opacity = .95
+window-padding-x = 8
+window-padding-y = 8
+window-padding-balance = true
+
+
+# behavior
+window-inherit-working-directory = true
+window-inherit-font-size = true
+window-title-font-family = "JetBrains Mono"
+window-subtitle = working-directory
+clipboard-read = allow
+clipboard-write = allow
+clipboard-trim-trailing-spaces = true
+clipboard-paste-protection = false
+quick-terminal-position = center
+
+# key bindings
+keybind = ctrl+a=new_split:right
+keybind = ctrl+s=new_split:down
+keybind = ctrl+super+right=goto_split:right
+keybind = ctrl+super+left=goto_split:left
+keybind = ctrl+super+down=goto_split:down
+keybind = ctrl+super+up=goto_split:up
